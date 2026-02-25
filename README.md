@@ -16,14 +16,6 @@ dataset → index.html + one HTML page per document
 
 Your crawler hits the index, follows the links, and scrapes the pages.
 
-## Datasets
-
-- `arxiv-abstracts`
-- `wikipedia-articles`
-- `ms-marco`
-- `hacker-news`
-- `pubmed-abstracts`
-
 ## License
 
 MIT
