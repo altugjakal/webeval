@@ -1,0 +1,14 @@
+
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+<h1>webeval - using benchmarking datasets on web oriented search mechanisms</h1>
+{% for corpus_id in whole_corpus %}
+    <a href={{"/document/" + corpus_id }}>{{ corpus_id }}</a><br>
+
+{% endfor %}
+</body>
+
+</html>
